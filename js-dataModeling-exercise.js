@@ -32,10 +32,10 @@ var user = {
             genre:['comedy','drama','action','horror','documentary','reality','kids'],
             movies:['Get Out','Fast and the Furious','Iron Man'],
             otherContent:['Telvision','Documentary','Blog','Company News'],
-            paidService: true,
+            paidService: false,
             }
             ,'Shudder','Prime','Netflix'],
-    subscriber: true,
+    subscriber: false,
     } 
 
 // 2. Radio on the Internet app
@@ -174,19 +174,19 @@ var sportsTeam = {
 // Example of Relationship
 
 var user = {
-    name: string,
-    age:number,
-    adress:string,
-    city:string,
-    favSports:[string],
-    favTeams:[string,{
-        name:string,
-        city:string,
-        owners:[sting],
-        players:[string],
-        staff:[string],
+    name: "Todd Barry"
+    age:41,
+    adress:"1982 Main St NW"
+    city: "Philadelphia, PA"
+    favSports:[football,hockey],
+    favTeams:["Flyers",{
+        name:"Eagles",
+        city: "Philadelphia, PA",
+        owners:["Jeffrey Lurie"]
+        players:["Nick Foles", "Brian Dawkins","Fletcher Cox"],
+        staff:["Doug Penderson"],
         game schedule:[string],
         }],
-    favPlayers:[string],
-    subscriber:Boolean,
+    favPlayers:['Nick Foles"],
+    subscriber: true,
     }
