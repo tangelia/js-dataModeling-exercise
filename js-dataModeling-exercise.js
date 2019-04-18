@@ -61,6 +61,23 @@ var radioStation = {
     paidService: Boolean,
     }
 // Example of Relationship
+var user = {
+    name: string,
+    age: number,
+    email: string,
+    subscriber: Boolean,
+    favGenre:[string],
+    favStations:[string,{
+        callNumber: number,
+        name: string,
+        format: string,
+        topPlaylist:[string],
+        featuredArtists:[string],
+        genre:string,
+        paidService: Boolean,
+        }],
+    favSongs:[string],
+    fa
 
 // 3. Rock Concert App
 var user = {
@@ -72,11 +89,31 @@ var user = {
     favGenre: [string],
     subscriber: Boolean,
     }
-var venue{
-
-}
-
+var venue = {
+    name: string,
+    address: string,
+    events:[string],
+    openingTime:number,
+    closingTime: number,
+    coverCharge: number,
+    }
 // Example of Relationship
+var user = {
+    name: string,
+    age: number,
+    email: string,
+    favArtists: [string],
+    favVenues:[string,{
+        name: string,
+        address: string,
+        events:[string],
+        openingTime:number,
+        closingTime: number,
+        coverCharge: number,
+        }],
+    favGenre: [string],
+    subscriber: Boolean,
+    }
 
 // 4. Coffee To-Go App
 var user = {
@@ -115,19 +152,41 @@ var coffeShops = {
 
 // 5. Team Tracker App
 var user = {
-name: string,
-age:number,
-adress:string,
-city:string,
-favSports:[string],
-favTeams:[string],
-favPlayers:[string],
-subscriber:Boolean,
-}
+    name: string,
+    age:number,
+    adress:string,
+    city:string,
+    favSports:[string],
+    favTeams:[string],
+    favPlayers:[string],
+    subscriber:Boolean,
+    }
 
-var sportsTeam{
-name:
-city:
-}
+var sportsTeam = {
+    name:string,
+    city:string,
+    owners:[sting],
+    players:[string],
+    staff:[string],
+    game schedule:[string],
+    }
 
 // Example of Relationship
+
+var user = {
+    name: string,
+    age:number,
+    adress:string,
+    city:string,
+    favSports:[string],
+    favTeams:[string,{
+        name:string,
+        city:string,
+        owners:[sting],
+        players:[string],
+        staff:[string],
+        game schedule:[string],
+        }],
+    favPlayers:[string],
+    subscriber:Boolean,
+    }
